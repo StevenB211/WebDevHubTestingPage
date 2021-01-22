@@ -1,0 +1,27 @@
+.announcement{
+    font-family: 'Advent Pro', sans-serif;
+    height: 400px;
+    width: 350px;
+}
+
+.announTitle{
+    text-align: left;
+}
+
+.announContent a{
+    text-decoration: none;
+    color: #58ACC1;
+}
+
+.announContent a:hover{
+    color: #63D4D8;
+}
+
+.mainContent .announcement{
+    display: flex;
+    flex-direction: column;
+}
+
+#deliveryText{
+    color: red;
+}

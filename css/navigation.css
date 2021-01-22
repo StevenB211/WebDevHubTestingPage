@@ -1,0 +1,11 @@
+.navCard{
+    height: 250px;
+    width:240px;
+
+
+    border-radius:10px;
+    box-shadow: inset 0px 0px 10px #000000;
+
+    background:linear-gradient(to right, #3F738D, #63D4D8 );
+    text-align: center;
+}

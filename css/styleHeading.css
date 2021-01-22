@@ -1,0 +1,37 @@
+.topCard{
+    background: linear-gradient(to right, #63D4D8,#F0F4F4);
+    display: flex;
+    flex: row wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 20px #000000;
+    margin-bottom: 10px;
+     
+    color: #1B3640;
+    max-height: 85px;
+}
+
+.myTitle{
+    flex-grow: 1;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+    width: 680px;
+
+    position: absolute;
+    left: 0;
+
+}
+
+.myMap{
+    flex-grow: 1;
+    align-self: baseline;
+    margin-top: 30px;
+    margin-right:80px;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 35px;
+
+    text-align: right;
+
+}

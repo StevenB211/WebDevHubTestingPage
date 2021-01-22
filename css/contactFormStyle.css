@@ -1,0 +1,71 @@
+.emailForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: bold;
+
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.emailForm input{
+    background: linear-gradient(to right, #3F738D, #63D4D8);
+    color: #F0F4F4;
+    height: 25px;
+    border-radius: 10px;
+
+    box-shadow:inset 0px 0px 5px #F0F4F4;
+
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 16px;
+
+}
+
+.emailForm textarea{
+    background: linear-gradient(to right, #3F738D, #63D4D8);
+    color: #F0F4F4;
+    height: 100px;
+    border-radius: 10px;
+
+    box-shadow:inset 0px 0px 5px #F0F4F4;
+
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 16px;
+}
+
+.emailForm label{
+    font-size: 20px;
+    color: #1B3640;
+}
+
+.textSection{
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 18px;
+    color: #1B3640;
+
+    margin-top: 40px;
+}
+
+.textSection a{
+    text-decoration: none;
+    color: #58ACC1;
+}
+
+.textSection a:hover{
+    color: #63D4D8;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: black;
+  }

@@ -1,0 +1,56 @@
+.mainCard{
+    margin-left:auto;
+    margin-right: auto;
+
+    max-width: 940px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    display:flex;
+    flex: row wrap;
+}
+
+.topCard{
+    padding: 50px 0px;
+    text-align: center;
+    
+}
+
+.mainContent{
+    background-color: #F0F4F4;
+    margin-left: 10px;
+    width: 780px;
+
+    border-radius:10px;
+    box-shadow: inset 0px 0px 10px #000000;
+
+    flex-grow: 5;
+    display: flex;
+    flex: row wrap;
+    justify-content: center;
+}
+
+.textContent{
+    text-align: left;
+    font-family: 'Advent Pro', sans-serif;
+    color:#1B3640;
+}
+
+.textContent img{
+    width: 300px;
+    height: 200px;
+}
+
+.textPic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size:10px;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.toTop{
+    text-align: right;
+}

@@ -1,0 +1,28 @@
+.navCard a {
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #000000;
+
+    font-family: 'Advent Pro', sans-serif;
+    padding: 8px 8px;
+    font-size:22px;
+    color: #F0F4F4;
+    display: block;
+}
+
+.navCard a:hover{
+    color: #63D4D8;
+}
+
+.navCard a:active{
+    color: #63D4D8;
+}
+
+.toTop a{
+    text-decoration: none;
+    font-family: 'Advent Pro', sans-serif;
+    color: #1B3640;
+}
+
+.toTop a:hover{
+    color: #63D4D8;
+}
